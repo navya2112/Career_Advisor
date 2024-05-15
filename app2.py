@@ -10,7 +10,7 @@ import pickle
 import numpy as np
 
 # Load the scaler, label encoder, model, and class names
-scaler = pickle.load(open("Models/scaler.pkl", 'rb'))
+scaler = pickle.load(open("scaler.pkl", 'rb'))
 model = pickle.load(open("Models/model.pkl", 'rb'))
 class_names = ['Lawyer', 'Doctor', 'Government Officer', 'Artist', 'Unknown',
                'Software Engineer', 'Teacher', 'Business Owner', 'Scientist',
